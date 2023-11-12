@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MliYAOaxsZGoKVufPwhMhykCoVF5gNpT14zkXUif1ptV+i6ha/bEYoy80TELqOU3Ago9nA6iIlrVCd236spCHw==",
+  "dgSpecHash": "CKVw4urZy7YVtx0CG48r3cD+ntpRQ7AjE0m4j6vWOj7OWhjdErZusfl/yLrui7IJ9ZeGdXcvsBapB8FyUYckVA==",
   "success": true,
   "projectFilePath": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore\\KMDotNetCore.ConsoleApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\TRY\\.nuget\\packages\\dapper\\2.1.21\\dapper.2.1.21.nupkg.sha512",
     "C:\\Users\\TRY\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\TRY\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\TRY\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",

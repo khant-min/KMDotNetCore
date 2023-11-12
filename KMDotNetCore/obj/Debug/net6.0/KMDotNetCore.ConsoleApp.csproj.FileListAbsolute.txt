@@ -20,3 +20,4 @@ D:\Work Space\Personal Development\C#\KMDotNetCore\KMDotNetCore\obj\Debug\net6.0
 D:\Work Space\Personal Development\C#\KMDotNetCore\KMDotNetCore\obj\Debug\net6.0\KMDotNetCore.ConsoleApp.pdb
 D:\Work Space\Personal Development\C#\KMDotNetCore\KMDotNetCore\obj\Debug\net6.0\KMDotNetCore.ConsoleApp.genruntimeconfig.cache
 D:\Work Space\Personal Development\C#\KMDotNetCore\KMDotNetCore\obj\Debug\net6.0\ref\KMDotNetCore.ConsoleApp.dll
+D:\Work Space\Personal Development\C#\KMDotNetCore\KMDotNetCore\bin\Debug\net6.0\Dapper.dll
