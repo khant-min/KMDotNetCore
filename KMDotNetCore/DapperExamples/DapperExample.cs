@@ -29,6 +29,9 @@ namespace KMDotNetCore.ConsoleApp.DapperExamples
         {
             Read();
             Edit(5);
+            Create("test 8.21", "test 2", "test 3");
+            Update(5, "test 6", "test 7", "test 8");
+            Delete(5);
         }
 
         private void Read()
@@ -67,6 +70,70 @@ namespace KMDotNetCore.ConsoleApp.DapperExamples
             Console.WriteLine(item.Blog_Title);
             Console.WriteLine(item.Blog_Author);
             Console.WriteLine(item.Blog_Content);
+        }
+
+        private void Create(string title, string author, string content)
+        {
+            BlogDataModel blog = new BlogDataModel()
+            {
+                Blog_Title = title,
+                Blog_Author = author,
+                Blog_Content = content
+            };
+
+               string query = @"INSERT INTO [dbo].[Tbl_Blog]
+           ([Blog_Title]
+           ,[Blog_Author]
+           ,[Blog_Content])
+     VALUES
+           (@Blog_Title
+           ,@Blog_Author
+           ,@Blog_Content)";
+
+            using IDbConnection db = new SqlConnection(sqlConnectionStringBuilder.ConnectionString);
+            int result = db.Execute(query, blog);
+
+            string message = result > 0 ? "Successfully created." : "Creating failed";
+            Console.WriteLine(message);
+        }
+
+        private void Update(int id, string title, string author, string content)
+        {
+            BlogDataModel blog = new BlogDataModel()
+            {
+                Blog_Id = id,
+                Blog_Title = title,
+                Blog_Author = author,
+                Blog_Content = content
+            };
+            string query = @"
+                            UPDATE [dbo].[Tbl_Blog]
+                            SET [Blog_Title] = @Blog_Title
+                                ,[Blog_Author] = @Blog_Author
+                                ,[Blog_Content] = @Blog_Content
+                            WHERE Blog_Id = @Blog_Id";
+
+
+            using IDbConnection db = new SqlConnection(sqlConnectionStringBuilder.ConnectionString);
+            int result = db.Execute(query, blog);
+
+            string message = result > 0 ? "Successfully updated." : "Updating failed";
+            Console.WriteLine(message);
+        }
+
+        private void Delete(int id)
+        {
+            BlogDataModel blog = new BlogDataModel() { Blog_Id = id };
+
+            string query = @"
+                            DELETE FROM [dbo].[Tbl_Blog]
+                            WHERE Blog_Id = @Blog_Id";
+
+            using IDbConnection db = new SqlConnection(sqlConnectionStringBuilder.ConnectionString);
+            int result = db.Execute(query, blog);
+
+            string message = result > 0 ? "Successfully deleted." : "Deleting failed";
+            Console.WriteLine(message);
         }
     }
 }
