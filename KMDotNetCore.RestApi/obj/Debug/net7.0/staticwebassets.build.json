@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "y2ZREuzSD/LdnCxEpY7Sx2GlQOH4Y5oETScatyLgm7o=",
+  "Source": "KMDotNetCore.RestApi",
+  "BasePath": "_content/KMDotNetCore.RestApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
