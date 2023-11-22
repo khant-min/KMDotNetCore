@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "elUUX6oNOu+9jG4UPs1wZcrPNeG2sU1VOq7GsP7dLxVIMbBzYSIkvridDzXfNLuX8p1xQUgRpcFv/B2mHainjQ==",
+  "dgSpecHash": "OCnCg8MmFzLuUL2kCJNvWzFKgM9B7RwxRlItGwndmCNtugTOk6D/fJN+Lch0Dk+R3iNkRFx7vNGwV6B9++LjJQ==",
   "success": true,
   "projectFilePath": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.RestApi\\KMDotNetCore.RestApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TRY\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\TRY\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\TRY\\.nuget\\packages\\dapper\\2.1.21\\dapper.2.1.21.nupkg.sha512",
     "C:\\Users\\TRY\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.10\\microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
     "C:\\Users\\TRY\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\TRY\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

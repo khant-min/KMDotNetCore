@@ -96,7 +96,7 @@ namespace KMDotNetCore.RestApi.Controllers
         public IActionResult PatchBlogs(int id, BlogDataModel blog)
         {
             AppDbContext db = new AppDbContext();
-            BlogDataModel item = db.Blogs.FirstOrDefault(blog => blog.Blog_Id == id);
+            BlogDataModel? item = db.Blogs.FirstOrDefault(blog => blog.Blog_Id == id);
             if (item is null)
             {
                 var response = new { IsSuccess = false, Message = "No data found" };
