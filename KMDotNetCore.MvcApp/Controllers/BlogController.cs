@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using KMDotNetCore.MvcApp.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace KMDotNetCore.MvcApp.Controllers
 {
@@ -7,7 +8,10 @@ namespace KMDotNetCore.MvcApp.Controllers
         [ActionName("Index")]
         public IActionResult BlogIndex()
         {
-            return View("BlogIndex");
+            AppDbContext db = new AppDbContext();
+            List<BlogDataModel> lst = db.Blogs.ToList();
+
+            return View("BlogIndex", lst);
         }
     }
 }
