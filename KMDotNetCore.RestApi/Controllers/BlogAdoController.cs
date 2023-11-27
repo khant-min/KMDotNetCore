@@ -140,6 +140,7 @@ namespace KMDotNetCore.RestApi.Controllers
 
             string query = "select * from tbl_blog where Blog_Id = @Blog_Id";
             SqlCommand cmd = new SqlCommand(query, connection);
+            cmd.Parameters.AddWithValue("@Blog_Id", blog.Blog_Id);
             cmd.Parameters.AddWithValue("@Blog_Title", blog.Blog_Title);
             cmd.Parameters.AddWithValue("@Blog_Author", blog.Blog_Author);
             cmd.Parameters.AddWithValue("@Blog_Content", blog.Blog_Content);
