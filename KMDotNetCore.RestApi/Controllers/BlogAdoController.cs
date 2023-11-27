@@ -3,6 +3,7 @@ using System.Data.SqlClient;
 using System.Reflection.Metadata;
 using KMDotNetCore.RestApi.Models;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
@@ -148,6 +149,42 @@ namespace KMDotNetCore.RestApi.Controllers
 
             connection.Close();
             
+            BlogResponseModel model = new BlogResponseModel
+            {
+                IsSuccess = result > 0,
+                Message = result > 0 ? "Update successful." : "Update failed.",
+                Data = blog
+            };
+
+            return Ok(model);
+        }
+
+        [HttpPatch("{id}")]
+        public IActionResult PatchBlog(int id, BlogDataModel blog)
+        {
+            SqlConnection connection = new SqlConnection(sqlConnectionStringBuilder.ConnectionString);
+            connection.Open();
+
+            string query = "select * from tbl_blog where Blog_Id = @Blog_Id";
+
+            SqlCommand cmd = new SqlCommand(query, connection);
+            cmd.Parameters.AddWithValue("@Blog_Id", blog.Blog_Id);
+            if (!string.IsNullOrEmpty(blog.Blog_Title))
+            {
+                cmd.Parameters.AddWithValue("@Blog_Title", blog.Blog_Title);
+            }
+            if (!string.IsNullOrEmpty(blog.Blog_Author))
+            {
+                cmd.Parameters.AddWithValue("@Blog_Author", blog.Blog_Author);
+            }
+            if (!string.IsNullOrEmpty(blog.Blog_Content))
+            {
+                cmd.Parameters.AddWithValue("@Blog_Content", blog.Blog_Content);
+            }
+
+            int result = cmd.ExecuteNonQuery();
+
+            connection.Close();
             BlogResponseModel model = new BlogResponseModel
             {
                 IsSuccess = result > 0,
