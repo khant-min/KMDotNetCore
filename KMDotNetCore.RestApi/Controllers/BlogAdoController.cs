@@ -141,7 +141,27 @@ namespace KMDotNetCore.RestApi.Controllers
 
             string query = "select * from tbl_blog where Blog_Id = @Blog_Id";
             SqlCommand cmd = new SqlCommand(query, connection);
-            cmd.Parameters.AddWithValue("@Blog_Id", blog.Blog_Id);
+            cmd.Parameters.AddWithValue("@Blog_Id", id);
+            SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            adapter.Fill(dt);
+            connection.Close();
+
+            if (dt.Rows.Count == 0)
+            {
+                return NotFound(new { IsSuccess = false, Message = "No data found!" });
+            }
+
+            connection.Open();
+            query = @"UPDATE [dbo].[Tbl_Blog]
+                    SET [Blog_Title] = @Blog_Title
+                        ,[Blog_Author] = @Blog_Author
+                        ,[Blog_Content] = @Blog_Content
+                    WHERE Blog_Id = @Blog_Id";
+
+            cmd = new SqlCommand(query, connection);
+
+            cmd.Parameters.AddWithValue("@Blog_Id", id);
             cmd.Parameters.AddWithValue("@Blog_Title", blog.Blog_Title);
             cmd.Parameters.AddWithValue("@Blog_Author", blog.Blog_Author);
             cmd.Parameters.AddWithValue("@Blog_Content", blog.Blog_Content);
@@ -177,11 +197,11 @@ namespace KMDotNetCore.RestApi.Controllers
 
             if (dt.Rows.Count == 0)
             {
-                return NotFound(new { IsSuccess = false, Message = "Data not found@" });
+                return NotFound(new { IsSuccess = false, Message = "Data not found!" });
             }
 
             string conditions = "";
-            //SqlConnection connection2 = new SqlConnection(sqlConnectionStringBuilder.ConnectionString);
+           
             connection.Open();
 
             SqlCommand cmd2 = new SqlCommand();
