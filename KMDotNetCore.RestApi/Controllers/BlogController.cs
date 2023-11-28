@@ -92,7 +92,7 @@ namespace KMDotNetCore.RestApi.Controllers
             return Ok(model);
         }
 
-        [HttpPatch]
+        [HttpPatch("{id}")]
         public IActionResult PatchBlogs(int id, BlogDataModel blog)
         {
             AppDbContext db = new AppDbContext();
