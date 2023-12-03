@@ -201,7 +201,7 @@ namespace KMDotNetCore.RestApi.Controllers
             }
 
             string conditions = "";
-           
+
             connection.Open();
 
             SqlCommand cmd2 = new SqlCommand();

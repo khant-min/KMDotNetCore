@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="plugins/notiflix-3.2.6/notiflix-3.2.6.min.css"
+    />
+  </head>
+  <body>
+    <button type="button" class="btn btn-primary" onclick="success()">
+      Success
+    </button>
+    <button type="button" class="btn btn-dark" onclick="fail()">Fail</button>
+    <script>
+      function success() {
+        Notify.success("Sol lucet omnibus");
+      }
+      function fail() {
+        Notify.failure("Qui timide rogat docet negare");
+      }
+
+      Notiflix.Notify.success("Click Me", function cb() {
+        console.log("success");
+      });
+
+      Notiflix.Report.success("Title", "Message", "Button Text", function cb() {
+        // callback
+      });
+
+      Confirm.ask(
+        "Where is Padmé?",
+        "Is she safe? Is she all right?",
+        "It seems, in your anger, you killed her.",
+        "Answer",
+        "Cancel",
+        () => {
+          alert("😡 NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!!!");
+        },
+        () => {
+          alert("😪 ...");
+        },
+        {}
+      );
+    </script>
+  </body>
+</html>
