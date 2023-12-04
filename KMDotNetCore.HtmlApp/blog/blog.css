@@ -1,0 +1,23 @@
+* {
+  font-family: "Lobster", sans-serif;
+  font-family: "Shadows Into Light", cursive;
+  text-align: center;
+  margin: auto;
+  max-width: 100%;
+}
+
+.header {
+  font-family: "Lobster", sans-serif;
+  font-size: bold;
+  margin: 50px 0 40px;
+}
+
+.edit:hover,
+.delete:hover {
+  cursor: pointer;
+}
+
+.no-data {
+  font-size: larger;
+  font-weight: bolder;
+}
