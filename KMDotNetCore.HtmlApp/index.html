@@ -78,11 +78,22 @@
           console.log(index + ": " + value.UserName);
 
           htmlString += `
-                    <tr>
-                        <td>${index + 1}</td>
-                        <td>${value.UserId}</td>
-                        <td>${value.UserName}</td>
-                    </tr>`;
+                      <tr>
+                          <td>
+                              <button type="button" class="btn btn-warning" onclick="editUser('${
+                                value.UserId
+                              }')">
+                                  <i class="fa-solid fa-pen-to-square"></i>
+                              </button>
+                              <button type="button" class="btn btn-danger" onclick="deleteUser('${
+                                value.UserId
+                              }')">
+                                  <i class="fa-solid fa-trash"></i>
+                              </button>
+                          </td>
+                          <td>${index + 1}</td>
+                          <td>${value.UserName}</td>
+                      </tr>`;
           $("#tbTbody").html(htmlString);
         });
       }
