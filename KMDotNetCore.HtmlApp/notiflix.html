@@ -20,36 +20,14 @@
       Success
     </button>
     <button type="button" class="btn btn-dark" onclick="fail()">Fail</button>
+    <script src="plugins/notiflix-3.2.6/notiflix-3.2.6.min.js"></script>
     <script>
       function success() {
-        Notify.success("Sol lucet omnibus");
+        Notiflix.Notify.success("Notiflix success");
       }
       function fail() {
-        Notify.failure("Qui timide rogat docet negare");
+        Notiflix.Notify.failure("Notiflix fail");
       }
-
-      Notiflix.Notify.success("Click Me", function cb() {
-        console.log("success");
-      });
-
-      Notiflix.Report.success("Title", "Message", "Button Text", function cb() {
-        // callback
-      });
-
-      Confirm.ask(
-        "Where is Padmé?",
-        "Is she safe? Is she all right?",
-        "It seems, in your anger, you killed her.",
-        "Answer",
-        "Cancel",
-        () => {
-          alert("😡 NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!!!");
-        },
-        () => {
-          alert("😪 ...");
-        },
-        {}
-      );
     </script>
   </body>
 </html>
