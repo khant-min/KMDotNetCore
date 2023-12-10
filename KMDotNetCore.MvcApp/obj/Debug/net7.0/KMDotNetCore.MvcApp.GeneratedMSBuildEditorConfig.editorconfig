@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Work Space\Personal Development\C#\KMDotNetCore\KMDotNetCore.MvcApp
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Work Space/Personal Development/C\#/KMDotNetCore/KMDotNetCore.MvcApp/Views/Blog/BlogCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xCbG9nQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Work Space/Personal Development/C\#/KMDotNetCore/KMDotNetCore.MvcApp/Views/Blog/BlogIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xCbG9nSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
