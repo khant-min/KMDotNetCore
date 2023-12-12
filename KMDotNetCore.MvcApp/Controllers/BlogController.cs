@@ -1,6 +1,7 @@
 ﻿using KMDotNetCore.MvcApp.EFDbContext;
 using KMDotNetCore.MvcApp.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace KMDotNetCore.MvcApp.Controllers
 {
@@ -41,6 +42,83 @@ namespace KMDotNetCore.MvcApp.Controllers
             // ViewData
             // TempData
             // Session
+            return Redirect("/blog");
+        }
+
+        [ActionName("Edit")]
+        public async Task<IActionResult> BlogEdit(int id)
+        {
+            if (!await _context.Blogs.AsNoTracking().AnyAsync(x => x.Blog_Id == id))
+            {
+                TempData["Message"] = "No data found.";
+                TempData["IsSuccess"] = false;
+                return Redirect("/blog");
+            }
+
+            var blog = await _context.Blogs.AsNoTracking().FirstOrDefaultAsync(x => x.Blog_Id == id);
+            if (blog is null)
+            {
+                TempData["Message"] = "No data found.";
+                TempData["IsSuccess"] = false;
+                return Redirect("/blog");
+            }
+            return View("BlogEdit", blog);
+        }
+
+        [HttpPost]
+        [ActionName("Update")]
+        public async Task<IActionResult> BlogUpdate(int id, BlogDataModel reqModel)
+        {
+            if (!await _context.Blogs.AsNoTracking().AnyAsync(x => x.Blog_Id == id)) 
+            {
+                TempData["Message"] = "No data found.";
+                TempData["IsSuccess"] = false;
+                return Redirect("/blog");
+            }
+
+            var blog = await _context.Blogs.FirstOrDefaultAsync(x => x.Blog_Id == id);
+            if (blog is null)
+            {
+                TempData["Message"] = "No data found.";
+                TempData["IsSuccess"] = false;
+                return Redirect("/blog");
+            }
+            blog.Blog_Title = reqModel.Blog_Title;
+            blog.Blog_Author = reqModel.Blog_Author;
+            blog.Blog_Content = reqModel.Blog_Content;
+
+            int result = _context.SaveChanges();
+            string message = result > 0 ? "Updaing successful." : "Updating failed.";
+            TempData["Message"] = message;
+            TempData["IsSuccess"] = result > 0;
+
+            return Redirect("/blog");
+        }
+
+        [ActionName("Delete")]
+        public async Task<IActionResult> BlogDelete(int id)
+        {
+            if (!await _context.Blogs.AsNoTracking().AnyAsync(x => x.Blog_Id == id))
+            {
+                TempData["Message"] = "No data found.";
+                TempData["IsSuccess"] = false;
+                return Redirect("/blog");
+            }
+
+            var blog = await _context.Blogs.AsNoTracking().FirstOrDefaultAsync(x => x.Blog_Id == id);
+            if (blog is null)
+            {
+                TempData["Message"] = "No data found.";
+                TempData["IsSuccess"] = false;
+                return Redirect("/blog");
+            }
+
+            _context.Remove(blog);
+            int result = _context.SaveChanges();
+            string message = result > 0 ? "Deleting Successful." : "Deleting Failed.";
+            TempData["Message"] = message;
+            TempData["IsSuccess"] = result > 0;
+
             return Redirect("/blog");
         }
     }
