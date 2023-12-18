@@ -16,6 +16,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Work Space\Personal Development\C#\KMDotNetCore\KMDotNetCore.MvcApp
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Work Space/Personal Development/C\#/KMDotNetCore/KMDotNetCore.MvcApp/Views/BlogAjax/BlogCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ0FqYXhcQmxvZ0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work Space/Personal Development/C\#/KMDotNetCore/KMDotNetCore.MvcApp/Views/BlogAjax/BlogEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ0FqYXhcQmxvZ0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work Space/Personal Development/C\#/KMDotNetCore/KMDotNetCore.MvcApp/Views/BlogAjax/BlogList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ0FqYXhcQmxvZ0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Work Space/Personal Development/C\#/KMDotNetCore/KMDotNetCore.MvcApp/Views/Blog/BlogCreate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xCbG9nQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
