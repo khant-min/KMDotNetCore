@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FRHdM4kvcDb7LFhyLcnhZiPE3WWoDbB3byZF6JH8WKQ=",
+  "Hash": "A0qiyiUD4PM0GdXGQr7fXrWxODI2lRqYJyG5OerpuDM=",
   "Source": "KMDotNetCore.MvcApp",
   "BasePath": "_content/KMDotNetCore.MvcApp",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.MvcApp\\wwwroot\\js\\custom.js",
+      "SourceId": "KMDotNetCore.MvcApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.MvcApp\\wwwroot\\",
+      "BasePath": "_content/KMDotNetCore.MvcApp",
+      "RelativePath": "js/custom.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\custom.js"
     },
     {
       "Identity": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.MvcApp\\wwwroot\\js\\site.js",

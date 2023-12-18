@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.MvcApp\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
       "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.MvcApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

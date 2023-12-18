@@ -18,6 +18,7 @@ function successMessage(message, url) {
         }
     });
 }
+
 function confirmMessage(message) {
     return new Promise((resolve, reject) => {
         Swal.fire({

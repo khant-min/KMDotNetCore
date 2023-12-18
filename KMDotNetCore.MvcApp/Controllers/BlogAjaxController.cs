@@ -63,7 +63,7 @@ namespace KMDotNetCore.MvcApp.Controllers
             {
                 TempData["Message"] = "No data found.";
                 TempData["IsSuccess"] = false;
-                return Redirect("/blogajax/list");
+                return Redirect("/blogajax");
             }
             return View("BlogEdit", blog);
         }
