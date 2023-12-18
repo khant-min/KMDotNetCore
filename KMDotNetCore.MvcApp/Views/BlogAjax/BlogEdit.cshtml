@@ -26,11 +26,10 @@
 @section scripts {
     <script>
         $('#btnUpdate').click(function (e) {
-            console.log("hello world")
             e.preventDefault();
 
-            // var l = Ladda.create(this);
-            // l.start();
+            var l = Ladda.create(this);
+            l.start();
 
             var _reqModel = {
                 Blog_Id:@Model.Blog_Id,
@@ -46,7 +45,7 @@
                     reqModel: _reqModel
                 },
                 success: function (data) {
-                    // l.stop();
+                    l.stop();
                     showMessage(data, "/blogajax/list");
                 },
                 error: function (request, status, error) {
