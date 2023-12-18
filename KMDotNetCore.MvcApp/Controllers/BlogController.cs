@@ -22,6 +22,33 @@ namespace KMDotNetCore.MvcApp.Controllers
             return View("BlogIndex", lst);
         }
 
+        [ActionName("List")]
+        public async Task<IActionResult> BlogList(int pageNo = 1, int pageSize = 10)
+        {
+            BlogDataResponseModel model = new BlogDataResponseModel();
+            List<BlogDataModel> lst = _context.Blogs.AsNoTracking()
+                .Skip((pageNo - 1) * pageSize)
+                .Take(pageSize)
+                .ToList();
+
+            int rowCount = await _context.Blogs.CountAsync();
+            int pageCount = rowCount / pageSize;
+            if (rowCount % pageSize > 0)
+                pageCount++;
+
+            model.Blogs = lst;
+            //model.PageSetting = new PageSettingModel
+            //{
+            //    PageCount = pageCount,
+            //    PageNo = pageNo,
+            //    PageSize = pageSize
+            //};
+            model.PageSetting = new PageSettingModel(pageNo, pageSize, pageCount, "/blog/list");
+
+            return View("BlogList", model);
+        }
+
+
         [ActionName("Create")]
         public IActionResult BlogCreate()
         {
