@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\KMDotNetCore.ThemeMvcApp.props" />
+</Project>

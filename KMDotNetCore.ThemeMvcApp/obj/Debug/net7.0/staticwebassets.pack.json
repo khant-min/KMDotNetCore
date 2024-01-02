@@ -1,0 +1,597 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\KMDotNetCore.ThemeMvcApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\KMDotNetCore.ThemeMvcApp.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\css\\hover.css",
+      "PackagePath": "staticwebassets\\theme\\css\\hover.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\css\\plugins.css",
+      "PackagePath": "staticwebassets\\theme\\css\\plugins.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\css\\skin\\skin-1.css",
+      "PackagePath": "staticwebassets\\theme\\css\\skin\\skin-1.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\css\\style.css",
+      "PackagePath": "staticwebassets\\theme\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\theme\\css\\style.min.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\css\\style_2.css",
+      "PackagePath": "staticwebassets\\theme\\css\\style_2.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\css\\templete.min.css",
+      "PackagePath": "staticwebassets\\theme\\css\\templete.min.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\css\\hover.css",
+      "PackagePath": "staticwebassets\\theme\\js\\css\\hover.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\css\\plugins.css",
+      "PackagePath": "staticwebassets\\theme\\js\\css\\plugins.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\css\\skin\\skin-1.css",
+      "PackagePath": "staticwebassets\\theme\\js\\css\\skin\\skin-1.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\css\\style.css",
+      "PackagePath": "staticwebassets\\theme\\js\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\theme\\js\\css\\style.min.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\css\\style_2.css",
+      "PackagePath": "staticwebassets\\theme\\js\\css\\style_2.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\css\\templete.min.css",
+      "PackagePath": "staticwebassets\\theme\\js\\css\\templete.min.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\custom.js",
+      "PackagePath": "staticwebassets\\theme\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\custom.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\custom.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\custom_2.js",
+      "PackagePath": "staticwebassets\\theme\\js\\custom_2.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\dashboard\\cms.js",
+      "PackagePath": "staticwebassets\\theme\\js\\dashboard\\cms.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\dashboard\\core-hr.js",
+      "PackagePath": "staticwebassets\\theme\\js\\dashboard\\core-hr.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\dashboard\\dashboard-1.js",
+      "PackagePath": "staticwebassets\\theme\\js\\dashboard\\dashboard-1.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\dashboard\\dashboard-1_2.js",
+      "PackagePath": "staticwebassets\\theme\\js\\dashboard\\dashboard-1_2.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\demo.js",
+      "PackagePath": "staticwebassets\\theme\\js\\demo.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\demo_2.js",
+      "PackagePath": "staticwebassets\\theme\\js\\demo_2.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\deznav-init.js",
+      "PackagePath": "staticwebassets\\theme\\js\\deznav-init.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\deznav-init_2.js",
+      "PackagePath": "staticwebassets\\theme\\js\\deznav-init_2.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\dz.ajax.js",
+      "PackagePath": "staticwebassets\\theme\\js\\dz.ajax.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\dz.carousel.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\dz.carousel.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\highlight.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\highlight.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\theme\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\plugins-init\\bs-daterange-picker-init.js",
+      "PackagePath": "staticwebassets\\theme\\js\\plugins-init\\bs-daterange-picker-init.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\plugins-init\\chartist-init.js",
+      "PackagePath": "staticwebassets\\theme\\js\\plugins-init\\chartist-init.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\plugins-init\\chartjs-init.js",
+      "PackagePath": "staticwebassets\\theme\\js\\plugins-init\\chartjs-init.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\plugins-init\\clock-picker-init.js",
+      "PackagePath": "staticwebassets\\theme\\js\\plugins-init\\clock-picker-init.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\plugins-init\\datatables.init.js",
+      "PackagePath": "staticwebassets\\theme\\js\\plugins-init\\datatables.init.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\plugins-init\\flot-init.js",
+      "PackagePath": "staticwebassets\\theme\\js\\plugins-init\\flot-init.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\plugins-init\\fullcalendar-init.js",
+      "PackagePath": "staticwebassets\\theme\\js\\plugins-init\\fullcalendar-init.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\plugins-init\\jquery-asColorPicker.init.js",
+      "PackagePath": "staticwebassets\\theme\\js\\plugins-init\\jquery-asColorPicker.init.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\plugins-init\\jquery.validate-init.js",
+      "PackagePath": "staticwebassets\\theme\\js\\plugins-init\\jquery.validate-init.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\plugins-init\\jqvmap-init.js",
+      "PackagePath": "staticwebassets\\theme\\js\\plugins-init\\jqvmap-init.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\plugins-init\\material-date-picker-init.js",
+      "PackagePath": "staticwebassets\\theme\\js\\plugins-init\\material-date-picker-init.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\plugins-init\\morris-init.js",
+      "PackagePath": "staticwebassets\\theme\\js\\plugins-init\\morris-init.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\plugins-init\\nestable-init.js",
+      "PackagePath": "staticwebassets\\theme\\js\\plugins-init\\nestable-init.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\plugins-init\\nouislider-init.js",
+      "PackagePath": "staticwebassets\\theme\\js\\plugins-init\\nouislider-init.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\plugins-init\\pickadate-init.js",
+      "PackagePath": "staticwebassets\\theme\\js\\plugins-init\\pickadate-init.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\plugins-init\\piety-init.js",
+      "PackagePath": "staticwebassets\\theme\\js\\plugins-init\\piety-init.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\plugins-init\\select2-init.js",
+      "PackagePath": "staticwebassets\\theme\\js\\plugins-init\\select2-init.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\plugins-init\\sparkline-init.js",
+      "PackagePath": "staticwebassets\\theme\\js\\plugins-init\\sparkline-init.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\plugins-init\\sweetalert.init.js",
+      "PackagePath": "staticwebassets\\theme\\js\\plugins-init\\sweetalert.init.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\plugins-init\\toastr-init.js",
+      "PackagePath": "staticwebassets\\theme\\js\\plugins-init\\toastr-init.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\plugins-init\\widgets-script-init.js",
+      "PackagePath": "staticwebassets\\theme\\js\\plugins-init\\widgets-script-init.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\rev.slider.js",
+      "PackagePath": "staticwebassets\\theme\\js\\rev.slider.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\styleSwitcher.js",
+      "PackagePath": "staticwebassets\\theme\\js\\styleSwitcher.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\js\\styleSwitcher_2.js",
+      "PackagePath": "staticwebassets\\theme\\js\\styleSwitcher_2.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\apexchart\\apexchart.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\apexchart\\apexchart.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\apexchart\\apexchart_2.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\apexchart\\apexchart_2.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\bootstrap-datepicker-master\\css\\bootstrap-datepicker.min.css",
+      "PackagePath": "staticwebassets\\theme\\vendor\\bootstrap-datepicker-master\\css\\bootstrap-datepicker.min.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\bootstrap-datepicker-master\\js\\bootstrap-datepicker.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\bootstrap-datepicker-master\\js\\bootstrap-datepicker.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\bootstrap-daterangepicker\\daterangepicker.css",
+      "PackagePath": "staticwebassets\\theme\\vendor\\bootstrap-daterangepicker\\daterangepicker.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\bootstrap-daterangepicker\\daterangepicker.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\bootstrap-daterangepicker\\daterangepicker.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\bootstrap-datetimepicker\\css\\bootstrap-datetimepicker.min.css",
+      "PackagePath": "staticwebassets\\theme\\vendor\\bootstrap-datetimepicker\\css\\bootstrap-datetimepicker.min.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\bootstrap-datetimepicker\\js\\bootstrap-datetimepicker.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\bootstrap-datetimepicker\\js\\bootstrap-datetimepicker.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\bootstrap-datetimepicker\\js\\moment.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\bootstrap-datetimepicker\\js\\moment.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\bootstrap-material-datetimepicker\\css\\bootstrap-material-datetimepicker.css",
+      "PackagePath": "staticwebassets\\theme\\vendor\\bootstrap-material-datetimepicker\\css\\bootstrap-material-datetimepicker.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\bootstrap-material-datetimepicker\\js\\bootstrap-material-datetimepicker.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\bootstrap-material-datetimepicker\\js\\bootstrap-material-datetimepicker.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\bootstrap-select\\dist\\css\\bootstrap-select.min.css",
+      "PackagePath": "staticwebassets\\theme\\vendor\\bootstrap-select\\dist\\css\\bootstrap-select.min.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\bootstrap-select\\dist\\css\\bootstrap-select.min_2.css",
+      "PackagePath": "staticwebassets\\theme\\vendor\\bootstrap-select\\dist\\css\\bootstrap-select.min_2.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\bootstrap-select\\dist\\js\\bootstrap-select.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\bootstrap-select\\dist\\js\\bootstrap-select.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\bootstrap-select\\dist\\js\\bootstrap-select.min_2.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\bootstrap-select\\dist\\js\\bootstrap-select.min_2.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\chart-js\\chart.bundle.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\chart-js\\chart.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\chart.js\\Chart.bundle.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\chart.js\\Chart.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\chartist-plugin-tooltips\\js\\chartist-plugin-tooltip.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\chartist-plugin-tooltips\\js\\chartist-plugin-tooltip.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\chartist\\css\\chartist.min.css",
+      "PackagePath": "staticwebassets\\theme\\vendor\\chartist\\css\\chartist.min.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\chartist\\css\\chartist.min_2.css",
+      "PackagePath": "staticwebassets\\theme\\vendor\\chartist\\css\\chartist.min_2.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\chartist\\js\\chartist.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\chartist\\js\\chartist.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\ckeditor\\ckeditor.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\ckeditor\\ckeditor.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\clockpicker\\css\\bootstrap-clockpicker.min.css",
+      "PackagePath": "staticwebassets\\theme\\vendor\\clockpicker\\css\\bootstrap-clockpicker.min.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\clockpicker\\js\\bootstrap-clockpicker.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\clockpicker\\js\\bootstrap-clockpicker.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\datatables\\css\\jquery.dataTables.min.css",
+      "PackagePath": "staticwebassets\\theme\\vendor\\datatables\\css\\jquery.dataTables.min.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\datatables\\js\\buttons.html5.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\datatables\\js\\buttons.html5.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\datatables\\js\\dataTables.buttons.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\datatables\\js\\dataTables.buttons.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\datatables\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\datatables\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\datatables\\js\\jszip.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\datatables\\js\\jszip.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\deznav\\deznav.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\deznav\\deznav.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\draggable\\draggable.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\draggable\\draggable.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\dropzone\\dist\\dropzone.css",
+      "PackagePath": "staticwebassets\\theme\\vendor\\dropzone\\dist\\dropzone.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\dropzone\\dist\\dropzone.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\dropzone\\dist\\dropzone.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\flot-spline\\jquery.flot.spline.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\flot-spline\\jquery.flot.spline.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\flot\\jquery.flot.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\flot\\jquery.flot.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\flot\\jquery.flot.pie.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\flot\\jquery.flot.pie.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\flot\\jquery.flot.resize.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\flot\\jquery.flot.resize.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\fullcalendar\\css\\main.min.css",
+      "PackagePath": "staticwebassets\\theme\\vendor\\fullcalendar\\css\\main.min.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\fullcalendar\\js\\main.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\fullcalendar\\js\\main.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\global\\global.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\global\\global.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\global\\global.min_2.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\global\\global.min_2.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\highlightjs\\highlight.pack.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\highlightjs\\highlight.pack.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\jquery-asColorPicker\\css\\asColorPicker.min.css",
+      "PackagePath": "staticwebassets\\theme\\vendor\\jquery-asColorPicker\\css\\asColorPicker.min.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\jquery-asColorPicker\\js\\jquery-asColorPicker.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\jquery-asColorPicker\\js\\jquery-asColorPicker.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\jquery-asColor\\jquery-asColor.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\jquery-asColor\\jquery-asColor.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\jquery-asGradient\\jquery-asGradient.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\jquery-asGradient\\jquery-asGradient.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\jquery-nice-select\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\jquery-nice-select\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\jquery-smartwizard\\dist\\css\\smart_wizard.min.css",
+      "PackagePath": "staticwebassets\\theme\\vendor\\jquery-smartwizard\\dist\\css\\smart_wizard.min.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\jquery-smartwizard\\dist\\js\\jquery.smartWizard.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\jquery-smartwizard\\dist\\js\\jquery.smartWizard.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\jquery-sparkline\\jquery.sparkline.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\jquery-sparkline\\jquery.sparkline.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\jquery-steps\\build\\jquery.steps.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\jquery-steps\\build\\jquery.steps.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\jquery-validation\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\jquery-validation\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\jqvmap\\css\\jqvmap.min.css",
+      "PackagePath": "staticwebassets\\theme\\vendor\\jqvmap\\css\\jqvmap.min.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\jqvmap\\css\\jqvmap.min_2.css",
+      "PackagePath": "staticwebassets\\theme\\vendor\\jqvmap\\css\\jqvmap.min_2.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\jqvmap\\js\\jquery.vmap.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\jqvmap\\js\\jquery.vmap.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\jqvmap\\js\\jquery.vmap.usa.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\jqvmap\\js\\jquery.vmap.usa.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\jqvmap\\js\\jquery.vmap.world.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\jqvmap\\js\\jquery.vmap.world.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\jvmap\\jquery-jvectormap.css",
+      "PackagePath": "staticwebassets\\theme\\vendor\\jvmap\\jquery-jvectormap.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\lightgallery\\css\\lightgallery.min.css",
+      "PackagePath": "staticwebassets\\theme\\vendor\\lightgallery\\css\\lightgallery.min.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\lightgallery\\js\\lightgallery-all.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\lightgallery\\js\\lightgallery-all.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\moment\\moment.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\moment\\moment.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\morris\\morris.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\morris\\morris.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\nestable2\\css\\jquery.nestable.min.css",
+      "PackagePath": "staticwebassets\\theme\\vendor\\nestable2\\css\\jquery.nestable.min.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\nestable2\\js\\jquery.nestable.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\nestable2\\js\\jquery.nestable.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\nouislider\\nouislider.min.css",
+      "PackagePath": "staticwebassets\\theme\\vendor\\nouislider\\nouislider.min.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\nouislider\\nouislider.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\nouislider\\nouislider.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\owl-carousel\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\theme\\vendor\\owl-carousel\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\owl-carousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\owl-carousel\\owl.carousel.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\peity\\jquery.peity.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\peity\\jquery.peity.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\peity\\jquery.peity.min_2.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\peity\\jquery.peity.min_2.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\pickadate\\picker.date.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\pickadate\\picker.date.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\pickadate\\picker.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\pickadate\\picker.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\pickadate\\picker.time.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\pickadate\\picker.time.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\pickadate\\themes\\default.css",
+      "PackagePath": "staticwebassets\\theme\\vendor\\pickadate\\themes\\default.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\pickadate\\themes\\default.date.css",
+      "PackagePath": "staticwebassets\\theme\\vendor\\pickadate\\themes\\default.date.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\raphael\\raphael.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\raphael\\raphael.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\select2\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\theme\\vendor\\select2\\css\\select2.min.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\select2\\js\\select2.full.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\select2\\js\\select2.full.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\star-rating\\jquery.star-rating-svg.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\star-rating\\jquery.star-rating-svg.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\star-rating\\star-rating-svg.css",
+      "PackagePath": "staticwebassets\\theme\\vendor\\star-rating\\star-rating-svg.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\svganimation\\svg.animation.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\svganimation\\svg.animation.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\svganimation\\vivus.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\svganimation\\vivus.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\sweetalert2\\dist\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\theme\\vendor\\sweetalert2\\dist\\sweetalert2.min.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\sweetalert2\\dist\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\sweetalert2\\dist\\sweetalert2.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\swiper\\css\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\theme\\vendor\\swiper\\css\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\tagify\\dist\\tagify.css",
+      "PackagePath": "staticwebassets\\theme\\vendor\\tagify\\dist\\tagify.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\tagify\\dist\\tagify.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\tagify\\dist\\tagify.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\toastr\\css\\toastr.min.css",
+      "PackagePath": "staticwebassets\\theme\\vendor\\toastr\\css\\toastr.min.css"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\toastr\\js\\toastr.min.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\toastr\\js\\toastr.min.js"
+    },
+    {
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.ThemeMvcApp\\wwwroot\\theme\\vendor\\wnumb\\wNumb.js",
+      "PackagePath": "staticwebassets\\theme\\vendor\\wnumb\\wNumb.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.KMDotNetCore.ThemeMvcApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.KMDotNetCore.ThemeMvcApp.props",
+      "PackagePath": "build\\KMDotNetCore.ThemeMvcApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.KMDotNetCore.ThemeMvcApp.props",
+      "PackagePath": "buildMultiTargeting\\KMDotNetCore.ThemeMvcApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.KMDotNetCore.ThemeMvcApp.props",
+      "PackagePath": "buildTransitive\\KMDotNetCore.ThemeMvcApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
