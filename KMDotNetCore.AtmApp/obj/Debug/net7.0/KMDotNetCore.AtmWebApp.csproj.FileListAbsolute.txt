@@ -1,0 +1,8 @@
+D:\Work Space\Personal Development\C#\KMDotNetCore\KMDotNetCore.AtmApp\obj\Debug\net7.0\KMDotNetCore.AtmWebApp.csproj.AssemblyReference.cache
+D:\Work Space\Personal Development\C#\KMDotNetCore\KMDotNetCore.AtmApp\obj\Debug\net7.0\KMDotNetCore.AtmWebApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work Space\Personal Development\C#\KMDotNetCore\KMDotNetCore.AtmApp\obj\Debug\net7.0\KMDotNetCore.AtmWebApp.AssemblyInfoInputs.cache
+D:\Work Space\Personal Development\C#\KMDotNetCore\KMDotNetCore.AtmApp\obj\Debug\net7.0\KMDotNetCore.AtmWebApp.AssemblyInfo.cs
+D:\Work Space\Personal Development\C#\KMDotNetCore\KMDotNetCore.AtmApp\obj\Debug\net7.0\KMDotNetCore.AtmWebApp.csproj.CoreCompileInputs.cache
+D:\Work Space\Personal Development\C#\KMDotNetCore\KMDotNetCore.AtmApp\obj\Debug\net7.0\KMDotNetCore.AtmWebApp.MvcApplicationPartsAssemblyInfo.cache
+D:\Work Space\Personal Development\C#\KMDotNetCore\KMDotNetCore.AtmApp\obj\Debug\net7.0\KMDotNetCore.AtmWebApp.RazorAssemblyInfo.cache
+D:\Work Space\Personal Development\C#\KMDotNetCore\KMDotNetCore.AtmApp\obj\Debug\net7.0\KMDotNetCore.AtmWebApp.RazorAssemblyInfo.cs

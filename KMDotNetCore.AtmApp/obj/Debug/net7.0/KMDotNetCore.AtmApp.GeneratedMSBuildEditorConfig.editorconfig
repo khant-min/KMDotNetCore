@@ -1,0 +1,73 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = KMDotNetCore.AtmApp
+build_property.RootNamespace = KMDotNetCore.AtmApp
+build_property.ProjectDir = D:\Work Space\Personal Development\C#\KMDotNetCore\KMDotNetCore.AtmApp\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Work Space\Personal Development\C#\KMDotNetCore\KMDotNetCore.AtmApp
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Work Space/Personal Development/C\#/KMDotNetCore/KMDotNetCore.AtmApp/Views/Atm/AtmBalance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRtXEF0bUJhbGFuY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work Space/Personal Development/C\#/KMDotNetCore/KMDotNetCore.AtmApp/Views/Atm/AtmChangePin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRtXEF0bUNoYW5nZVBpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work Space/Personal Development/C\#/KMDotNetCore/KMDotNetCore.AtmApp/Views/Atm/AtmCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRtXEF0bUNyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work Space/Personal Development/C\#/KMDotNetCore/KMDotNetCore.AtmApp/Views/Atm/AtmDeposit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRtXEF0bURlcG9zaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work Space/Personal Development/C\#/KMDotNetCore/KMDotNetCore.AtmApp/Views/Atm/AtmIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRtXEF0bUluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work Space/Personal Development/C\#/KMDotNetCore/KMDotNetCore.AtmApp/Views/Atm/AtmTransactions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRtXEF0bVRyYW5zYWN0aW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work Space/Personal Development/C\#/KMDotNetCore/KMDotNetCore.AtmApp/Views/Atm/AtmWithdraw.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXRtXEF0bVdpdGhkcmF3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work Space/Personal Development/C\#/KMDotNetCore/KMDotNetCore.AtmApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work Space/Personal Development/C\#/KMDotNetCore/KMDotNetCore.AtmApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work Space/Personal Development/C\#/KMDotNetCore/KMDotNetCore.AtmApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work Space/Personal Development/C\#/KMDotNetCore/KMDotNetCore.AtmApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work Space/Personal Development/C\#/KMDotNetCore/KMDotNetCore.AtmApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work Space/Personal Development/C\#/KMDotNetCore/KMDotNetCore.AtmApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Work Space/Personal Development/C\#/KMDotNetCore/KMDotNetCore.AtmApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-c3cmapir38

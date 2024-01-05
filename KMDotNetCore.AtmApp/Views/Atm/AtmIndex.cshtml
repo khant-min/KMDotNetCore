@@ -1,0 +1,78 @@
+﻿@{
+    ViewData["Title"] = "Login";
+    string message = null;
+    bool isSuccess = false;
+    if (TempData["Message"] != null)
+    {
+        message = TempData["Message"].ToString();
+        isSuccess = Convert.ToBoolean(TempData["IsSuccess"]);
+    }
+    if (message is not null)
+    {
+        <div class="mx-auto col-14 col-md-10 col-lg-6">
+            <div class="form-group">
+                <div class="alert alert-@(isSuccess?"success" :"danger") role="alert">
+                    @message
+                </div>
+            </div>
+        </div>
+    }
+}
+
+<div class="mx-auto col-14 col-md-10 col-lg-6">
+    <div class="form-group">
+        <div class="mx-auto col-md-6">
+            <label class="txtCard">Card Number</label>
+            <input class="form-control" type="text" id="txtCard" placeholder="012*****210">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="mx-auto col-md-6">
+            <label class="txtPin">PIN</label>
+            <input class="form-control" type="text" id="txtPin" placeholder="######">
+        </div>
+    </div>
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <button type="button" class="btn btn-primary btn-customized mt-4 ladda-button" data-style="expand-left" id="btnLogin">
+            <span class="ladda-label">Login</span>
+        </button>
+    </div>
+    <div class="mx-auto col-md-6 text-center" style="margin-top:0.5rem;">
+        <label class="form-label">Have no account yet?<a href="/atm/create">&nbsp;Register</a></label>
+    </div>
+</div>
+
+@section scripts{
+    <script>
+        $("#btnLogin").click(function (e) {
+            e.preventDefault();
+
+            var l = Ladda.create(this);
+            l.start();
+
+            var _reqModel = {
+                CardNumber: $("#txtCard").val(),
+                Pin: $("#txtPin").val()
+            };
+
+            $.ajax({
+                url: '/atm/login',
+                type: 'POST',
+                data: {
+                    reqModel: _reqModel
+                },
+                success: function (card) {
+                    l.stop();
+                    if (card != null) {
+                        location.href = "/atm/transaction";
+                    } else {
+                        location.href = "/atm";
+                    }
+                },
+                error: function (request, status, error) {
+                    console.log({ request, status, error });
+                }
+            });
+        })
+    </script>
+}
