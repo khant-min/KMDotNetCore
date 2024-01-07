@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WwxGHagw14CxZAYqAqnlHC2257oO0Z1AsZFLclchBtM=",
+  "Hash": "zgC+eiKVAXXktMdunImRtl91fwi1c4jB0SHlPX95xIA=",
   "Source": "KMDotNetCore.AtmWebApp",
   "BasePath": "_content/KMDotNetCore.AtmWebApp",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.AtmApp\\wwwroot\\js\\custom.js",
+      "SourceId": "KMDotNetCore.AtmWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.AtmApp\\wwwroot\\",
+      "BasePath": "_content/KMDotNetCore.AtmWebApp",
+      "RelativePath": "js/custom.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\custom.js"
     },
     {
       "Identity": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.AtmApp\\wwwroot\\js\\site.js",
