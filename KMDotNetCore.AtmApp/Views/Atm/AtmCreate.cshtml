@@ -52,6 +52,8 @@
                 Balance: $("#txtBalance").val()
             };
 
+            console.log("req model", _reqModel)
+
             $.ajax({
                 url: '/atm/save',
                 type: 'POST',
@@ -63,6 +65,8 @@
                     showMessage(data, "/atm");
                 },
                 error: function (request, status, error) {
+                    l.stop();
+                    showMessage("An Error Occurs", "/atm");
                     console.log({ request, status, error });
                 }
             });
