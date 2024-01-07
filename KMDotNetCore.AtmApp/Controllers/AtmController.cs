@@ -68,6 +68,7 @@ namespace KMDotNetCore.AtmWebApp.Controllers
         [ActionName("Save")]
         public async Task<IActionResult> AtmSave(AtmDataModel reqModel)
         {
+            Console.WriteLine("Req model" + reqModel);
             await _context.AtmDatas.AddAsync(reqModel);
             int result = await _context.SaveChangesAsync();
 

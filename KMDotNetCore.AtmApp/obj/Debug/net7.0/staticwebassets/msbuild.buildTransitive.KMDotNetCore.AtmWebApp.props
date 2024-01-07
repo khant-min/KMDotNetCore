@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\KMDotNetCore.AtmWebApp.props" />
+</Project>

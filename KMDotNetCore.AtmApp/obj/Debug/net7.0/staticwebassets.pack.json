@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.AtmApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\KMDotNetCore.AtmApp.bundle.scp.css",
-      "PackagePath": "staticwebassets\\KMDotNetCore.AtmApp.bundle.scp.css"
+      "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.AtmApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\KMDotNetCore.AtmWebApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\KMDotNetCore.AtmWebApp.bundle.scp.css"
     },
     {
       "Id": "D:\\Work Space\\Personal Development\\C#\\KMDotNetCore\\KMDotNetCore.AtmApp\\wwwroot\\css\\site.css",
@@ -245,20 +245,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.KMDotNetCore.AtmApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.KMDotNetCore.AtmWebApp.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.KMDotNetCore.AtmApp.props",
-      "PackagePath": "build\\KMDotNetCore.AtmApp.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.KMDotNetCore.AtmWebApp.props",
+      "PackagePath": "build\\KMDotNetCore.AtmWebApp.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.KMDotNetCore.AtmApp.props",
-      "PackagePath": "buildMultiTargeting\\KMDotNetCore.AtmApp.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.KMDotNetCore.AtmWebApp.props",
+      "PackagePath": "buildMultiTargeting\\KMDotNetCore.AtmWebApp.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.KMDotNetCore.AtmApp.props",
-      "PackagePath": "buildTransitive\\KMDotNetCore.AtmApp.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.KMDotNetCore.AtmWebApp.props",
+      "PackagePath": "buildTransitive\\KMDotNetCore.AtmWebApp.props"
     }
   ],
   "ElementsToRemove": []
