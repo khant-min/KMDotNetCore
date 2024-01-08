@@ -11,6 +11,10 @@ using KMDotNetCore.ConsoleApp.HttpClientExamples;
 //dapperExample.Run();
 //EFCoreExample efCore = new EFCoreExample();
 //efCore.Run();
+
+Console.WriteLine("Please wait for api...");
+Console.ReadKey();
+
 HttpClientExample httpClientExample = new HttpClientExample();
 await httpClientExample.Run();
 
